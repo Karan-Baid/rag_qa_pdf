@@ -2,13 +2,9 @@ streamlit
 langchain
 langchain-core
 langchain-community
-langchain_chroma
 langchain-groq
 pypdf
 langchain_huggingface
-pymupdf
 langchain-text-splitters
-transformers
 sentence_transformers
 chromadb
-tqdm
