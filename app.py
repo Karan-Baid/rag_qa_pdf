@@ -103,7 +103,6 @@ if api_key:
                     "configurable":{"session_id":session_id}
                 },
             )
-            st.write(st.session_state.store)
             st.write("Assistant: ",response['answer'])
             st.write("Chat History: ",session_history.messages)
 
