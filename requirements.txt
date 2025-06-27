@@ -29,3 +29,4 @@ opentelemetry-sdk==1.22.0
 
 tqdm>=4.66.2
 uvicorn[standard]>=0.27.1
+numpy==1.24.4
