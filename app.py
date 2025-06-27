@@ -10,6 +10,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.runnables.history import RunnableWithMessageHistory
+import os
+os.environ["IS_PRODUCTION"] = "false"
+
 
 embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
